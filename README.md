@@ -1,12 +1,51 @@
-# React + Vite
+# 🌈 Multi-Theme Switcher App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic and responsive React-based web app with a multi-theme switcher. This application lets users switch between **three distinct themes** — each with unique layout structures, fonts, and color schemes. Built using **Vite + React + TypeScript**, and styled using custom CSS with localStorage-based theme persistence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔴 Live Preview
+[👉 Click Here to View Live App](https://magenta-griffin-e75517.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🎨 **3 Themes**:
+  - **Theme 1**: Light mode, minimalist layout (`theme-classic`)
+  - **Theme 2**: Dark mode with sidebar navigation (`theme-dark`)
+  - **Theme 3**: Colorful theme with card-based layout and playful Pacifico font (`theme-colorful`)
+  
+- 🌐 Responsive for desktop & mobile (pure CSS media queries)
+- 💾 Theme selection persists using `localStorage`
+- ⚙️ Clean layout logic using dynamic rendering based on layout type
+- 🎯 No third-party UI libraries like MUI or AntD
+- 💅 Styled with pure CSS inside the component (CSS-in-JSX)
+- 🔄 Smooth transitions and dropdown menu animations
+- 🧭 Navigation components: Home, About, Contact, Services
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech         | Used For                        |
+|--------------|---------------------------------|
+| React + Vite | App setup & frontend framework  |
+| JavaScript   | Component logic & interactivity |
+| Lucide-React | Icon set                        |
+| CSS          | All theming and responsive layout |
+| localStorage | Theme persistence               |
+
+---
+
+## 📁 Project Structure
+
+
+
+### 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/multi-theme-switcher.git
+cd multi-theme-switcher
+npm install
+npm run dev
