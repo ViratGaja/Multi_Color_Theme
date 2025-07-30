@@ -5,7 +5,7 @@ A dynamic and responsive React-based web app with a multi-theme switcher. This a
 ---
 
 ## 🔴 Live Preview
-[👉 Click Here to View Live App](https://magenta-griffin-e75517.netlify.app/)
+[👉 Click Here to View Live App](https://melodic-bonbon-5c0cb0.netlify.app/)
 
 ---
 
