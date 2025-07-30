@@ -1021,7 +1021,7 @@ const MultiThemeSwitcher = () => {
           }
 
           .sidebar {
-            width: 100%;
+            width: 88%;
           }
 
           .desktop-nav {
